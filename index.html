@@ -1,16 +1,16 @@
 <!--
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
+[yes] Two Element Selectors
+[yes] Two ID Selectors
 [Yes] Two Class Selectors
 [yes] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a Background Image
-[ no ] Feature 2 - Include Border Radius CSS Property
+[ yes ] Feature 2 - Include Border Radius CSS Property
 [ no ] Feature 3 - Include Horizontal Line
 [ no ] Feature 4 - Embed YouTube Video
-[ no ] Feature 5 - Include Border CSS Property
+[ yes ] Feature 5 - Include Border CSS Property
 -->
 
 <!DOCTYPE html>
@@ -20,10 +20,10 @@ Select ONE Additional Feature to Add
     <title>Unit 2 Project</title>
     <style>
       h1 {
-        color: rgb(46, 64, 42);
+        color: rgb(68, 79, 65);
       }
       body {
-        background-color: rgb(183, 207, 178);
+        background-color: rgb(187, 201, 181);
       }
       .blue {
         border-radius: 5px;
@@ -37,13 +37,34 @@ Select ONE Additional Feature to Add
         border-radius: 5px;
         border: 5px solid #3f5741;
       }
+      #camping-h2 {
+        color:rgb(92, 69, 69);
+      }
+      #camping {
+        color: rgb(87, 56, 50);
+      }
+      #iceland-h2 {
+        color: rgb(55, 66, 89);
+      }
+      #iceland {
+        color: rgb(55, 70, 92);
+      }
+      #china-h2 {
+        color:rgb(128, 22, 22);
+      }
+      #china {
+        color:rgb(171, 69, 69);
+      }
+      #image {
+        color:rgb(138, 90, 90);
+      }
       
     </style>
   </head>
   <body>
     <h1>Things I want to do: Travel Edition</h1>
-    <h2>Camping</h2>
-    <p>
+    <h2 id="camping-h2">Camping</h2>
+    <p id="camping">
       I'm not a super outdoorsy person per se but my mom's always really wanted
       to go camping so I do want to go with her one day. I also love the vibes
       of roasting marshmallows over a campfire with family and friends.
@@ -72,8 +93,8 @@ Select ONE Additional Feature to Add
     />
     <br />
     <br />
-    <h2>Iceland: Aurora Borealis</h2>
-    <p>
+    <h2 id="iceland-h2">Iceland: Aurora Borealis</h2>
+    <p id="iceland">
       Iceland is a beautiful country with really amazing scenery and culture. I
       would love to stay at a cozy lodge or cottage in Iceland and at night me
       and my family would go out and look for the Aurora Borealis. I would also
@@ -98,8 +119,8 @@ Select ONE Additional Feature to Add
       width="450"
     />
     <br />
-    <h2>China: trying a bunch of food</h2>
-    <p>
+    <h2 id="china-h2">China: trying a bunch of food</h2>
+    <p id="china">
       I really want to go to China and try all of the different foods ethnic to
       different regions in the country. China's a massive country and each
       region has it's own staple dishes that I would love to taste. I would also
@@ -121,14 +142,14 @@ Select ONE Additional Feature to Add
       alt="hong shao rou"
       height="250"
     />
-    <p>
+    <p id="image">
       image 1: Jian Bing, a nothern chinese street food thats made of a thin
       crepe with and egg, veggies, and a crispy cracker inside of it.
       <br />
       image 2: Tiwansese style fried chicken
       <br />
-      image 3: Hong Shao Rou, a Shanghai style braised pork belly that tastes SO
-      GOOD (it lives rent free in my head)
+      image 3: Hong Shao Rou, a Shanghai style braised pork belly that tastes <strong> SO
+      GOOD</strong> <em>(it lives rent free in my head)</em>
     </p>
   </body>
 </html>
